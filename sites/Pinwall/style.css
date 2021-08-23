@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+}
+header{
+    background-image: url(img/header_background.jpg);
+    display: flex;
+    justify-content: space-around;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 35px;
+}
+.social_media{
+    width: 50%;
+    display: flex;
+    padding-top: 130px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.social_media p{
+    font-family: OpenSans;
+font-size: 22px;
+line-height: 28px;
+font-weight: 300;
+color: #ffffff;
+}
+.social_media_link{
+    display: inline-block;
+    border-radius: 10px;
+    padding: 16px;
+    border: 2.0px solid #ffffff;
+    text-decoration: none;
+    font-family: OpenSans;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.header_slider>*{
+        width: 10px;
+    height: 10px;
+    background-color: #ffffff;
+    border: 1px solid #fff;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 100%;
+}
+.current_link{
+    background-color: #008170;
+    border: 1px solid #008170;
+}
+.menu{
+   min-width: 300px;
+    height: 350px;
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.menu::after{
+        border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-top: 50px solid #fff;
+    content: '';
+    position: absolute;
+    display: block;
+    bottom: -50px;
+}
+.logo_name{
+        margin-top: 2px;
+    font-size: 44px;
+    font-weight: 400;
+    color: #33a088;
+}
+.menu_hr{
+        width: 100%;
+    border-style: none;
+    height: 2px;
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(242,239,239,1) 50%, rgba(0,0,0,0) 100%);
+}
+.nav_list{
+    list-style: none;
+}
+.nav_link{
+        text-decoration: none;
+    font-family: OpenSans;
+    font-size: 16px;
+    line-height: 37px;
+    font-weight: 400;
+    color: #7e7e7e;
+    padding: 5px;
+}
